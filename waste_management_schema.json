@@ -1,0 +1,236 @@
+{
+    "title": "Data Schema for waste management",
+    "description": "",
+    "fields": [
+        {
+            "name": "gid",
+            "type": "string",
+            "title": "Fraction for GADM ID for country/subarea",
+            "description": ""
+        },
+        {
+            "name": "coverBury_urb",
+            "type": "number",
+            "title": "Fraction for Cover Bury - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "coverBury_rur",
+            "type": "number",
+            "title": "Fraction for Cover Bury - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "sewageTreated_urb",
+            "type": "number",
+            "title": "Fraction for Sewage treated - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "sewageTreated_rur",
+            "type": "number",
+            "title": "Fraction for Sewage treated - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "fecalSludgeTreated_urb",
+            "type": "number",
+            "title": "Fraction for Fecal Sludge treated - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "fecalSludgeTreated_rur",
+            "type": "number",
+            "title": "Fraction for Fecal Sludge treated - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "isWatertight_urb",
+            "type": "number",
+            "title": "Fraction for Watertight - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "isWatertight_rur",
+            "type": "number",
+            "title": "Fraction for Watertight - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "hasLeach_urb",
+            "type": "number",
+            "title": "Fraction for Leach - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "hasLeach_rur",
+            "type": "number",
+            "title": "Fraction for Leach - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "emptyFrequency_urb",
+            "type": "number",
+            "title": "Fraction for Emptying frequency - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0
+            }
+        },
+        {
+            "name": "emptyFrequency_rur",
+            "type": "number",
+            "title": "Fraction for Emptying frequency - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0
+            }
+        },
+        {
+            "name": "pitAdditive_urb",
+            "type": "number",
+            "title": "Fraction for Pit additive - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "pitAdditive_rur",
+            "type": "number",
+            "title": "Fraction for Pit additive - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "urine_urb",
+            "type": "number",
+            "title": "Fraction for Urine - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "urine_rur",
+            "type": "number",
+            "title": "Fraction for Urine - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "twinPits_urb",
+            "type": "number",
+            "title": "Fraction for Twin pits - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "twinPits_rur",
+            "type": "number",
+            "title": "Fraction for Twin pits - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "onsiteDumpedland_urb",
+            "type": "number",
+            "title": "Fraction for Onsite Dumpled land - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "onsiteDumpedland_rur",
+            "type": "number",
+            "title": "Fraction for Onsite Dumpled land - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        }
+    ],
+    "missingValues": [
+        "",
+        "N/A",
+        "NA",
+        "n/a"
+    ]
+}

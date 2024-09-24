@@ -1,0 +1,281 @@
+{
+  "fields": [
+    {
+      "name": "iso",
+      "type": "integer",
+      "title": "ISO",
+      "description": ""
+    },
+    {
+      "name": "gid",
+      "type": "string"
+    },
+    {
+      "name": "iso3",
+      "type": "string"
+    },
+    {
+      "name": "subarea",
+      "type": "string"
+    },
+    {
+      "name": "hdi",
+      "type": "number"
+    },
+    {
+      "name": "population",
+      "type": "integer",
+      "constraints": {
+        "minimum": 0
+      }
+    },
+    {
+      "name": "fraction_urban_pop",
+      "type": "integer"
+    },
+    {
+      "name": "fraction_pop_under5",
+      "type": "number"
+    },
+    {
+      "name": "sheddingRate_virus",
+      "type": "number"
+    },
+    {
+      "name": "shedding_duration_virus",
+      "type": "integer"
+    },
+    {
+      "name": "incidence_urban_under5_virus",
+      "type": "number"
+    },
+    {
+      "name": "incidence_urban_5plus_virus",
+      "type": "number"
+    },
+    {
+      "name": "incidence_rural_under5_virus",
+      "type": "number"
+    },
+    {
+      "name": "incidence_rural_5plus_virus",
+      "type": "number"
+    },
+    {
+      "name": "sheddingRate_protozoa",
+      "type": "number"
+    },
+    {
+      "name": "shedding_duration_protozoa",
+      "type": "integer"
+    },
+    {
+      "name": "incidence_urban_under5_protozoa",
+      "type": "number"
+    },
+    {
+      "name": "incidence_urban_5plus_protozoa",
+      "type": "number"
+    },
+    {
+      "name": "incidence_rural_under5_protozoa",
+      "type": "number"
+    },
+    {
+      "name": "incidence_rural_5plus_protozoa",
+      "type": "number"
+    },
+    {
+      "name": "flushSewer_urb",
+      "type": "number"
+    },
+    {
+      "name": "flushSeptic_urb",
+      "type": "number"
+    },
+    {
+      "name": "flushPit_urb",
+      "type": "number"
+    },
+    {
+      "name": "flushOpen_urb",
+      "type": "number"
+    },
+    {
+      "name": "flushUnknown_urb",
+      "type": "number"
+    },
+    {
+      "name": "pitSlab_urb",
+      "type": "number"
+    },
+    {
+      "name": "pitNoSlab_urb",
+      "type": "number"
+    },
+    {
+      "name": "compostingToilet_urb",
+      "type": "number"
+    },
+    {
+      "name": "bucketLatrine_urb",
+      "type": "integer"
+    },
+    {
+      "name": "containerBased_urb",
+      "type": "integer"
+    },
+    {
+      "name": "hangingToilet_urb",
+      "type": "number"
+    },
+    {
+      "name": "openDefecation_urb",
+      "type": "number"
+    },
+    {
+      "name": "other_urb",
+      "type": "number"
+    },
+    {
+      "name": "coverBury_urb",
+      "type": "integer"
+    },
+    {
+      "name": "sewageTreated_urb",
+      "type": "integer"
+    },
+    {
+      "name": "fecalSludgeTreated_urb",
+      "type": "number"
+    },
+    {
+      "name": "isWatertight_urb",
+      "type": "integer"
+    },
+    {
+      "name": "hasLeach_urb",
+      "type": "number"
+    },
+    {
+      "name": "emptyFrequency_urb",
+      "type": "integer"
+    },
+    {
+      "name": "pitAdditive_urb",
+      "type": "integer"
+    },
+    {
+      "name": "urine_urb",
+      "type": "number"
+    },
+    {
+      "name": "twinPits_urb",
+      "type": "number"
+    },
+    {
+      "name": "onsiteDumpedland_urb",
+      "type": "number"
+    },
+    {
+      "name": "flushSewer_rur",
+      "type": "number"
+    },
+    {
+      "name": "flushSeptic_rur",
+      "type": "number"
+    },
+    {
+      "name": "flushPit_rur",
+      "type": "number"
+    },
+    {
+      "name": "flushOpen_rur",
+      "type": "number"
+    },
+    {
+      "name": "flushUnknown_rur",
+      "type": "number"
+    },
+    {
+      "name": "pitSlab_rur",
+      "type": "number"
+    },
+    {
+      "name": "pitNoSlab_rur",
+      "type": "number"
+    },
+    {
+      "name": "compostingToilet_rur",
+      "type": "number"
+    },
+    {
+      "name": "bucketLatrine_rur",
+      "type": "integer"
+    },
+    {
+      "name": "containerBased_rur",
+      "type": "integer"
+    },
+    {
+      "name": "hangingToilet_rur",
+      "type": "number"
+    },
+    {
+      "name": "openDefecation_rur",
+      "type": "number"
+    },
+    {
+      "name": "other_rur",
+      "type": "number"
+    },
+    {
+      "name": "coverBury_rur",
+      "type": "integer"
+    },
+    {
+      "name": "sewageTreated_rur",
+      "type": "integer"
+    },
+    {
+      "name": "fecalSludgeTreated_rur",
+      "type": "number"
+    },
+    {
+      "name": "isWatertight_rur",
+      "type": "integer"
+    },
+    {
+      "name": "hasLeach_rur",
+      "type": "number"
+    },
+    {
+      "name": "emptyFrequency_rur",
+      "type": "integer"
+    },
+    {
+      "name": "pitAdditive_rur",
+      "type": "integer"
+    },
+    {
+      "name": "urine_rur",
+      "type": "number"
+    },
+    {
+      "name": "twinPits_rur",
+      "type": "integer"
+    },
+    {
+      "name": "onsiteDumpedland_rur",
+      "type": "integer"
+    },
+    {
+      "name": "fEmitted_inEffluent_after_treatment_virus",
+      "type": "number"
+    },
+    {
+      "name": "fEmitted_inEffluent_after_treatment_protozoa",
+      "type": "number"
+    }
+  ]
+}

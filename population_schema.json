@@ -1,0 +1,80 @@
+{
+    "title": "Data Schema for population, demographics and regional data",
+    "description": "This schema defines the properties for the geographic area and its respective population, used for simulation purposes.",
+    "fields": [
+        {
+            "name": "iso",
+            "type": "integer",
+            "title": "ISO",
+            "description": ""
+        },
+        {
+            "name": "gid",
+            "type": "string",
+            "title": "GADM ID for country/subarea",
+            "description": ""
+        },
+        {
+            "name": "iso3",
+            "type": "string",
+            "title": "ISO Code of country/subarea",
+            "description": ""
+        },
+        {
+            "name": "subarea",
+            "type": "string",
+            "title": "Country/Subarea",
+            "description": ""
+        },
+        {
+            "name": "hdi",
+            "type": "number",
+            "title": "HDI",
+            "description": "Human development index of the country/subarea",
+            "float_number": true,
+            "schema": {
+                "multipleOf": 0.001
+            },
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "population",
+            "type": "integer",
+            "title": "Population of the country/subarea",
+            "description": "",
+            "constraints": {
+                "minimum": 0
+            }
+        },
+        {
+            "name": "fraction_urban_pop",
+            "type": "number",
+            "title": "Fraction of urban population",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "fraction_pop_under5",
+            "type": "number",
+            "float_number": true,
+            "description": "Fraction of population under 5 years of age",
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        }
+    ],
+    "missingValues": [
+        "",
+        "N/A",
+        "NA",
+        "n/a"
+    ]
+}

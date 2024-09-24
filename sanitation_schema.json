@@ -1,0 +1,304 @@
+{
+    "title": "Data Schema for sanitation fractions",
+    "description": "This schema defines the properties for sanitation fractions that summarise the sanitation situation at a given geographical area.",
+    "fields": [
+        {
+            "name": "gid",
+            "type": "string",
+            "title": "Fraction for GADM ID for country/subarea",
+            "description": ""
+        },
+        {
+            "name": "flushSewer_urb",
+            "type": "number",
+            "title": "Fraction for Flush toilets (sewered) - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushSewer_rur",
+            "type": "number",
+            "title": "Fraction for Flush toilets (sewered)- rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushSeptic_urb",
+            "type": "number",
+            "title": "Fraction for Flushed septic tanks - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushSeptic_rur",
+            "type": "number",
+            "title": "Fraction for Flushed septic tanks - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushPit_urb",
+            "type": "number",
+            "title": "Fraction for Flushed pit latrines - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushPit_rur",
+            "type": "number",
+            "title": "Fraction for Flushed pit latrines - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushOpen_urb",
+            "type": "number",
+            "title": "Fraction for Flushed Open - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushOpen_rur",
+            "type": "number",
+            "title": "Fraction for Flushed Open - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushUnknown_urb",
+            "type": "number",
+            "title": "Fraction for Flush Unknown - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "flushUnknown_rur",
+            "type": "number",
+            "title": "Fraction for Flush Unknown - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "pitSlab_urb",
+            "type": "number",
+            "title": "Fraction for Pits (slabs) - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "pitSlab_rur",
+            "type": "number",
+            "title": "Fraction for Pits (slabs) - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "pitNoSlab_urb",
+            "type": "number",
+            "title": "Fraction for Pits (no slabs) - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "pitNoSlab_rur",
+            "type": "number",
+            "title": "Fraction for Pits (no slabs) - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "compostingToilet_urb",
+            "type": "number",
+            "title": "Fraction for Composting Toilets - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "compostingToilet_rur",
+            "type": "number",
+            "title": "Fraction for Composting Toilets - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "bucketLatrine_urb",
+            "type": "number",
+            "title": "Fraction for Bucket Latrines - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "bucketLatrine_rur",
+            "type": "number",
+            "title": "Fraction for Bucket Latrines - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "containerBased_urb",
+            "type": "number",
+            "title": "Fraction for Container Based - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "containerBased_rur",
+            "type": "number",
+            "title": "Fraction for Container Based - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "hangingToilet_urb",
+            "type": "number",
+            "title": "Fraction for Hanging toilets - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "hangingToilet_rur",
+            "type": "number",
+            "title": "Fraction for Hanging toilets - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "openDefecation_urb",
+            "type": "number",
+            "title": "Fraction for Open Defecation - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "openDefecation_rur",
+            "type": "number",
+            "title": "Fraction for Open Defecation - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "other_urb",
+            "type": "number",
+            "title": "Fraction for Other - urban",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        },
+        {
+            "name": "other_rur",
+            "type": "number",
+            "title": "Fraction for Other - rural",
+            "description": "",
+            "float_number": true,
+            "constraints": {
+                "minimum": 0,
+                "maximum": 1
+            }
+        }
+    ],
+    "missingValues": [
+        "",
+        "N/A",
+        "NA",
+        "n/a"
+    ]
+}
