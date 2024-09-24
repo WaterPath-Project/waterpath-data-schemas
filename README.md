@@ -13,3 +13,5 @@ The following data types are currently supported:
 ## Data validation scripts
 
 The **example** folder includes an (example) data validation script using a schema file with real data from Kampala, Uganda. The source dataset and individual data files are expressed in CSV format, using a specific decimal system ("." as decimal separator, "," as thousands separator). 
+
+The data validation script runs on Python and the [tableschema](https://pypi.org/project/tableschema/) utility library.
