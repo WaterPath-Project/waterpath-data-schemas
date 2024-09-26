@@ -3,7 +3,7 @@
     "description": "This schema is used for high-resolution model simulations, typically at a sub-country level.",
     "fields": [
         {
-            "name": "Lon",
+            "name": "lon",
             "type": "number",
             "title": "Longitude of Wastewater Treatment Plant",
             "description": "",
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "Lat",
+            "name": "lat",
             "type": "number",
             "title": "Latitude of Wastewater Treatment Plant",
             "description": "",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "Capacity",
+            "name": "capacity",
             "type": "number",
             "title": "Number of people connected to the Wastewater Treatment Plant",
             "description": "",

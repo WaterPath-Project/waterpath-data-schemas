@@ -6,7 +6,7 @@ def exc_handler(exc, row_number=None, row_data=None, error_data=None):
     print("Error at row #",row_number, ": ", exc)
 
 
-table = Table('glowpa_isodata_kla_waste_management.csv', schema='../waste_management_schema.json')
+table = Table('glowpa_isodata_kla_population.csv', schema='../population_schema.json')
 
 for row in table.iter(exc_handler=exc_handler):
     print(".")

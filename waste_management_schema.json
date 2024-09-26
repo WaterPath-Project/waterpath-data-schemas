@@ -5,13 +5,13 @@
         {
             "name": "gid",
             "type": "string",
-            "title": "Fraction for GADM ID for country/subarea",
-            "description": ""
+            "title": "GID",
+            "description": "GID links to the administrative areas defined in the population portion of the data."
         },
         {
             "name": "coverBury_urb",
             "type": "number",
-            "title": "Fraction for Cover Bury - urban",
+            "title": "Cover Bury - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -22,7 +22,7 @@
         {
             "name": "coverBury_rur",
             "type": "number",
-            "title": "Fraction for Cover Bury - rural",
+            "title": "Cover Bury - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -33,8 +33,8 @@
         {
             "name": "sewageTreated_urb",
             "type": "number",
-            "title": "Fraction for Sewage treated - urban",
-            "description": "",
+            "title": "Sewage treated - urban",
+            "description": "Fraction the sewerage system which will have waste water treatment in urban areas.",
             "float_number": true,
             "constraints": {
                 "minimum": 0,
@@ -44,8 +44,8 @@
         {
             "name": "sewageTreated_rur",
             "type": "number",
-            "title": "Fraction for Sewage treated - rural",
-            "description": "",
+            "title": "Sewage treated - rural",
+            "description": "Fraction the sewerage system which will have waste water treatment in rural areas.",
             "float_number": true,
             "constraints": {
                 "minimum": 0,
@@ -55,8 +55,8 @@
         {
             "name": "fecalSludgeTreated_urb",
             "type": "number",
-            "title": "Fraction for Fecal Sludge treated - urban",
-            "description": "",
+            "title": "Fecal Sludge treated - urban",
+            "description": "Fraction the fecal sludge which will have treatment in urban areas.",
             "float_number": true,
             "constraints": {
                 "minimum": 0,
@@ -66,7 +66,7 @@
         {
             "name": "fecalSludgeTreated_rur",
             "type": "number",
-            "title": "Fraction for Fecal Sludge treated - rural",
+            "title": "Fraction the fecal sludge which will have treatment in rural areas.",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -77,7 +77,7 @@
         {
             "name": "isWatertight_urb",
             "type": "number",
-            "title": "Fraction for Watertight - urban",
+            "title": "Watertight - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -88,7 +88,7 @@
         {
             "name": "isWatertight_rur",
             "type": "number",
-            "title": "Fraction for Watertight - rural",
+            "title": "Watertight - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -99,7 +99,7 @@
         {
             "name": "hasLeach_urb",
             "type": "number",
-            "title": "Fraction for Leach - urban",
+            "title": "Leach - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -110,7 +110,7 @@
         {
             "name": "hasLeach_rur",
             "type": "number",
-            "title": "Fraction for Leach - rural",
+            "title": "Leach - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -121,7 +121,7 @@
         {
             "name": "emptyFrequency_urb",
             "type": "number",
-            "title": "Fraction for Emptying frequency - urban",
+            "title": "Emptying frequency - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -131,7 +131,7 @@
         {
             "name": "emptyFrequency_rur",
             "type": "number",
-            "title": "Fraction for Emptying frequency - rural",
+            "title": "Emptying frequency - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -141,7 +141,7 @@
         {
             "name": "pitAdditive_urb",
             "type": "number",
-            "title": "Fraction for Pit additive - urban",
+            "title": "Pit additive - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -152,7 +152,7 @@
         {
             "name": "pitAdditive_rur",
             "type": "number",
-            "title": "Fraction for Pit additive - rural",
+            "title": "Pit additive - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -163,7 +163,7 @@
         {
             "name": "urine_urb",
             "type": "number",
-            "title": "Fraction for Urine - urban",
+            "title": "Urine - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -174,7 +174,7 @@
         {
             "name": "urine_rur",
             "type": "number",
-            "title": "Fraction for Urine - rural",
+            "title": "Urine - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -185,7 +185,7 @@
         {
             "name": "twinPits_urb",
             "type": "number",
-            "title": "Fraction for Twin pits - urban",
+            "title": "Twin pits - urban",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -196,7 +196,7 @@
         {
             "name": "twinPits_rur",
             "type": "number",
-            "title": "Fraction for Twin pits - rural",
+            "title": "Twin pits - rural",
             "description": "",
             "float_number": true,
             "constraints": {
@@ -207,8 +207,8 @@
         {
             "name": "onsiteDumpedland_urb",
             "type": "number",
-            "title": "Fraction for Onsite Dumpled land - urban",
-            "description": "",
+            "title": "Onsite Dumpled land - urban",
+            "description": "fraction of fecal sludge which is dumped on land in urban areas.",
             "float_number": true,
             "constraints": {
                 "minimum": 0,
@@ -218,8 +218,8 @@
         {
             "name": "onsiteDumpedland_rur",
             "type": "number",
-            "title": "Fraction for Onsite Dumpled land - urban",
-            "description": "",
+            "title": "Onsite Dumpled land - urban",
+            "description": "fraction of fecal sludge which is dumped on land in rural areas.",
             "float_number": true,
             "constraints": {
                 "minimum": 0,
