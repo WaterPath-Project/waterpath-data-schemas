@@ -77,5 +77,8 @@
         "N/A",
         "NA",
         "n/a"
+    ],
+    "primaryKey": [
+        "gid"
     ]
 }

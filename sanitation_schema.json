@@ -300,5 +300,14 @@
         "N/A",
         "NA",
         "n/a"
-    ]
+    ],
+    "foreignKeys": [
+        {
+          "fields": "gid",
+          "reference": {
+            "resource": "population",
+            "fields": "gid"
+          }
+        }
+      ]
 }
