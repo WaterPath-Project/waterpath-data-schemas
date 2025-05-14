@@ -4,9 +4,9 @@
     "fields": [
         {
             "name": "iso",
-            "type": "integer",
-            "title": "ISO Identifier",
-            "description": "ISO identifier in isoraster input file"
+            "type": "string",
+            "title": "Identifier",
+            "description": "An identifier for the tabular data row."
         },
         {
             "name": "gid",
@@ -17,8 +17,8 @@
         {
             "name": "iso3",
             "type": "string",
-            "title": "ISO Code of administrative area",
-            "description": ""
+            "title": "ISO-3166-2 code",
+            "description": "ISO-3166-2 code links to the countries referenced by the populatikon portion of the data."
         },
         {
             "name": "subarea",
