@@ -1,5 +1,5 @@
 {
-    "title": "Data Schema for population, demographics and regional data",
+    "title": "Population schema",
     "description": "This schema defines the properties for the geographic area and its respective population, used for simulation purposes.",
     "fields": [
         {
