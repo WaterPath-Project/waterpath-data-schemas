@@ -7,7 +7,6 @@ This repository includes the data schemas used by the WaterPath project and the 
 The following data types are currently supported:
 * Population (*population_schema.json*)
 * Sanitation (*sanitation_schema.json*)
-* Waste Management (*waste_management_schema.json*)
 * Treatment (*treatment_high_resolution_schema.json* **OR** *treatment_schema.json*)
 
 ## Data validation scripts
