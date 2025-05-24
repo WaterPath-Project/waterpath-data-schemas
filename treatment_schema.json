@@ -1,5 +1,5 @@
 {
-    "title": "Data Schema for wastewater treatment",
+    "title": "Wastewater treatment schema",
     "description": "This schema is used for simulations at a global scale (0.5 degree resolution).",
     "fields": [
         {
