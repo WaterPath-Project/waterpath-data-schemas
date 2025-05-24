@@ -1,5 +1,5 @@
 {
-    "title": "Data Schema for sanitation fractions",
+    "title": "Sanitation schema",
     "description": "This schema defines the properties for sanitation fractions that summarise the sanitation situation at a given geographical area.",
     "fields": [
         {
