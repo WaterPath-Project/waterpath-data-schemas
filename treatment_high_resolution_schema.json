@@ -1,5 +1,5 @@
 {
-    "title": "Data Schema for high-resolution wastewater treatment.",
+    "title": "Wastewater treatment schema (high-resolution)",
     "description": "This schema is used for high-resolution model simulations, typically at a sub-country level.",
     "fields": [
         {
