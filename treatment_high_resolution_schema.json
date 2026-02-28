@@ -39,9 +39,9 @@
             "title": "Type of Wastewater treatment",
             "description": "Secondary: primary + secondary, tertiary: primary + secondary + tertiary",
             "categories": [
-                "primary",
-                "secondary",
-                "tertiary"
+                "Primary",
+                "Secondary",
+                "Tertiary"
             ]
         }
     ],
