@@ -40,17 +40,6 @@
                 "minimum": 0,
                 "maximum": 1
             }
-        },
-        {
-            "name": "FractionPonds",
-            "type": "number",
-            "title": "Fraction for Ponds",
-            "description": "",
-            "float_number": true,
-            "constraints": {
-                "minimum": 0,
-                "maximum": 1
-            }
         }
     ],
     "missingValues": [
