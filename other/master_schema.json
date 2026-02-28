@@ -11,7 +11,7 @@
       "type": "string"
     },
     {
-      "name": "iso3",
+      "name": "iso_country",
       "type": "string"
     },
     {
