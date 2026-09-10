@@ -5,6 +5,10 @@ At the core of the WaterPath Toolkit, data schemas are used to formally define t
 All data schemas in the WaterPath Toolkit are defined using the [Tableschema specification](https://specs.frictionlessdata.io/table-schema/) and expressed in JSON format. They are openly available on our [Github repository](https://github.com/WaterPath-Project/waterpath-data-schemas).
 
 The following data types are currently supported:
-* Population (*population_schema.json*)
-* Sanitation (*sanitation_schema.json*)
-* Treatment (*treatment_high_resolution_schema.json* **OR** *treatment_schema.json*)
+* Human Population (*human_emissions_isodata.json*)
+* Sanitation (*human_emissions_sanitation.json*)
+* Treatment (*human_emissions_point_treatment.json* **OR** *human_emissions_treatment.json*)
+* Livestock population (*livestock_isodata.json*)
+* Livestock manure fractions (*livestock_manure_fractions.json*)
+* Livestock manure management (*livestock_manure_management.json*)
+* Livestock production systems (*livestock_production_systems.json*)
